@@ -27,13 +27,13 @@
 
 ### 03. 데이터 목록
 - 상품구매 (Product)
-    CLNT_ID     : 방문자(Visitors)의 쿠키1)에 랜덤으로 부여된 고유 ID 
-    SESS_ID     : Web/App에 접속 후 세션이 시작될 때 부여된 고유 ID
-    HITS_SEQ    : Web/App에서 페이지 또는 화면 클릭, 이벤트 참여, 검색 등 방문자의 행위에 대해 순서대로 배열된 일련번호
-    PD_C        : 구매한 상품의 코드(최소단위)
-    PD_ADD_NM   : 구매한 상품의 추가 정보
-    PD_BRA_NM   : 구매한 상품의 브랜드
-    PD_BUY_AM   : 구매한 상품 1개의 금액
-    PD_BUY_CT   : 구매한 상품의 수량
+    - CLNT_ID     : 방문자(Visitors)의 쿠키1)에 랜덤으로 부여된 고유 ID 
+    - SESS_ID     : Web/App에 접속 후 세션이 시작될 때 부여된 고유 ID
+    - HITS_SEQ    : Web/App에서 페이지 또는 화면 클릭, 이벤트 참여, 검색 등 방문자의 행위에 대해 순서대로 배열된 일련번호
+    - PD_C        : 구매한 상품의 코드(최소단위)
+    - PD_ADD_NM   : 구매한 상품의 추가 정보
+    - PD_BRA_NM   : 구매한 상품의 브랜드
+    - PD_BUY_AM   : 구매한 상품 1개의 금액
+    - PD_BUY_CT   : 구매한 상품의 수량
 
 
