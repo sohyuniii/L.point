@@ -1,5 +1,4 @@
-# L.point
-## ["제5회 L.POINT Big Data competition - Be The L.BA"](https://competition.lpoint.com/index.tran)
+# ["제5회 L.POINT Big Data competition - Be The L.BA"](https://competition.lpoint.com/index.tran)
 
 ### 01. 공모 제출 및 방법
 
@@ -35,5 +34,18 @@
     - PD_BRA_NM   : 구매한 상품의 브랜드
     - PD_BUY_AM   : 구매한 상품 1개의 금액
     - PD_BUY_CT   : 구매한 상품의 수량
+
+- 검색어1 (Search1)	
+    - CLNT_ID	 : 방문자(Visitors)의 쿠키1)에 랜덤으로 부여된 고유 ID 
+        ※ 기기, 브라우저 체제에 따라 다른 방문자로 인식되어 동일고객이라도 여러 개의 클라이언트ID를 보유할 수 있음
+	  - SESS_ID	 : Web/App에 접속 후 세션이 시작될 때 부여된 고유 ID
+        ※ 하나의 클라이언트ID에 여러 개의 세션ID가 발급될 수 있음
+	  - KWD_NM	 : 검색창에 입력한 검색 키워드
+	  - SEARCH_CNT	: 세션 내 해당 검색어 검색량
+    
+- 검색어2 (Search2)	
+    - SESS_DT	    : 세션일자 (YYYYMMDD 형식으로 표시)
+	  - KWD_NM	    : 검색창에 입력한 검색 키워드
+	  - SEARCH_CNT	: 세션 내 해당 검색어 검색량
 
 
