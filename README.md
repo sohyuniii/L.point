@@ -36,16 +36,34 @@
     - PD_BUY_CT   : 구매한 상품의 수량
 
 - 검색어1 (Search1)	
-    - CLNT_ID	 : 방문자(Visitors)의 쿠키1)에 랜덤으로 부여된 고유 ID 
+    - CLNT_ID	  : 방문자(Visitors)의 쿠키1)에 랜덤으로 부여된 고유 ID 
         ※ 기기, 브라우저 체제에 따라 다른 방문자로 인식되어 동일고객이라도 여러 개의 클라이언트ID를 보유할 수 있음
-	  - SESS_ID	 : Web/App에 접속 후 세션이 시작될 때 부여된 고유 ID
+    - SESS_ID	  : Web/App에 접속 후 세션이 시작될 때 부여된 고유 ID
         ※ 하나의 클라이언트ID에 여러 개의 세션ID가 발급될 수 있음
-	  - KWD_NM	 : 검색창에 입력한 검색 키워드
-	  - SEARCH_CNT	: 세션 내 해당 검색어 검색량
+    - KWD_NM	  : 검색창에 입력한 검색 키워드
+    - SEARCH_CNT  : 세션 내 해당 검색어 검색량
     
 - 검색어2 (Search2)	
-    - SESS_DT	    : 세션일자 (YYYYMMDD 형식으로 표시)
-	  - KWD_NM	    : 검색창에 입력한 검색 키워드
-	  - SEARCH_CNT	: 세션 내 해당 검색어 검색량
+    - SESS_DT	   : 세션일자 (YYYYMMDD 형식으로 표시)
+    - KWD_NM	   : 검색창에 입력한 검색 키워드
+    - SEARCH_CNT   : 세션 내 해당 검색어 검색량
+
+- 세션 (Session)	
+    - CLNT_ID	
+    - SESS_ID		
+    - SESS_SEQ	: Web/App에 접속 후 세션이 시작될 때 부여된 일련번호
+    - SESS_DT	: 세션일자 (YYYYMMDD 형식으로 표시)
+    - TOT_PAG_VIEW_CT	: 세션 내의 총 페이지(화면) 뷰 수
+    - TOT_SESS_HR_V	: 세션 내 총 시간(단위: 초)
+    - DVC_CTG_N  : 기기 유형(1: desktop , 2: mobile, 3.tablet )
+    - ZON_NM	 : 세션기준 발생 대분류 지역명 (대분류IP 주소 또는 지역 ID 기준)
+    - CITY_NM	 : 세션기준 발생 중분류 지역명 (중분류IP 주소 또는 지역 ID 기준)
+
+- 상품분류	
+    - PD_C      : 상품코드	
+    - PD_NM	: 상품명	
+    - CLAC1_NM	: 상품 대분류명	
+    - CLAC2_NM	: 상품 중분류명
+    - CLAC3_NM	: 상품 소분류명
 
 
